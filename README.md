@@ -32,7 +32,7 @@ For a best reading experience, [read it online via Gitbook](https://mostly-adequ
 
 ## Play Around with Code
 
-To make the training efficient and not get too bored while I am telling you another story, make sure to play around with the concepts introduced in this book. Some can be tricky to catch at first and are better understood by getting your hands dirty. 
+To make the training efficient and not get too bored while I am telling you another story, make sure to play around with the concepts introduced in this book. Some can be tricky to catch at first and are better understood by getting your hands dirty.
 All functions and algebraic data-structures presented in the book are gathered in the appendixes. The corresponding code is also available as an npm module:
 
 ```bash
@@ -47,12 +47,11 @@ $ npm run ch04
 
 ## Download it
 
-* [Download PDF](https://www.gitbook.com/download/pdf/book/mostly-adequate/mostly-adequate-guide)
-* [Download EPUB](https://www.gitbook.com/download/epub/book/mostly-adequate/mostly-adequate-guide)
-* [Download Mobi (Kindle)](https://www.gitbook.com/download/mobi/book/mostly-adequate/mostly-adequate-guide)
-
+Find pre-generated **PDF** and **EPUB** as [build artifacts of the latest Github Workflows](https://github.com/MostlyAdequate/mostly-adequate-guide/actions/workflows/build.yml).
 
 ## Do it yourself
+
+> ⚠️ This project setup is now a bit old and thus, you may run into various issues when building this locally. We recommend to use node v10.22.1 and the latest version of Calibre if possible. 
 
 ```
 git clone https://github.com/MostlyAdequate/mostly-adequate-guide.git
@@ -63,7 +62,7 @@ npm run generate-pdf
 npm run generate-epub
 ```
 
-> Note! To generate the ebook version you will need to install `ebook-convert`. [Installation instructions](https://toolchain.gitbook.com/ebook.html#installing-ebook-convert).
+> Note! To generate the ebook version you will need to install `ebook-convert`. [Installation instructions](https://gitbookio.gitbooks.io/documentation/content/build/ebookconvert.html).
 
 # Table of Contents
 
